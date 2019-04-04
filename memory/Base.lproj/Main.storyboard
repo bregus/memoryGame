@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="memory" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pZT-pz-fqW">
+                                <rect key="frame" x="16" y="20" width="80" height="125"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                <state key="normal" backgroundImage="Card_back-Default.png"/>
+                                <connections>
+                                    <action selector="cardButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EOg-FN-YJx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OCf-UN-ESp">
+                                <rect key="frame" x="120" y="20" width="80" height="125"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <state key="normal" backgroundImage="Card_back-Default.png"/>
+                                <connections>
+                                    <action selector="cardButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jc9-47-7ZT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TVl-FZ-i9M">
+                                <rect key="frame" x="224" y="20" width="80" height="125"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <state key="normal" backgroundImage="Card_back-Default.png"/>
+                                <connections>
+                                    <action selector="cardButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pKr-ZR-KwM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uC3-aL-AXL">
+                                <rect key="frame" x="16" y="153" width="80" height="125"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <state key="normal" backgroundImage="Card_back-Default.png"/>
+                                <connections>
+                                    <action selector="cardButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mc2-bO-RZz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7fw-b0-QEj">
+                                <rect key="frame" x="120" y="153" width="80" height="125"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <state key="normal" backgroundImage="Card_back-Default.png"/>
+                                <connections>
+                                    <action selector="cardButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bbZ-cb-ALc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ef-JB-4Tx">
+                                <rect key="frame" x="224" y="153" width="80" height="125"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <state key="normal" backgroundImage="Card_back-Default.png"/>
+                                <connections>
+                                    <action selector="cardButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="G72-cS-Wpe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UZW-9Z-Vkf">
+                                <rect key="frame" x="16" y="286" width="80" height="125"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <state key="normal" backgroundImage="Card_back-Default.png"/>
+                                <connections>
+                                    <action selector="cardButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wme-1c-dU7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DNg-Zm-e0I">
+                                <rect key="frame" x="224" y="286" width="80" height="125"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <state key="normal" backgroundImage="Card_back-Default.png"/>
+                                <connections>
+                                    <action selector="cardButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AnN-pk-7nu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9iE-Cj-yoE">
+                                <rect key="frame" x="16" y="423" width="80" height="125"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <state key="normal" backgroundImage="Card_back-Default.png"/>
+                                <connections>
+                                    <action selector="cardButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yXO-3t-jCa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ouJ-4Y-dlL">
+                                <rect key="frame" x="120" y="423" width="80" height="125"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <state key="normal" backgroundImage="Card_back-Default.png"/>
+                                <connections>
+                                    <action selector="cardButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yBT-6v-XgG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oc4-wc-0DY">
+                                <rect key="frame" x="224" y="423" width="80" height="125"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <state key="normal" backgroundImage="Card_back-Default.png"/>
+                                <connections>
+                                    <action selector="cardButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gS5-aE-M6B"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TBg-Vh-XDM">
+                                <rect key="frame" x="120" y="286" width="80" height="125"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <state key="normal" backgroundImage="Card_back-Default.png"/>
+                                <connections>
+                                    <action selector="cardButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jxJ-L0-WZW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IPU-m8-19B">
+                                <rect key="frame" x="94" y="264" width="132" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.8385930061340332" green="0.72573578357696533" blue="0.33540987968444824" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Restart"/>
+                                <connections>
+                                    <action selector="restartButtobPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="m1L-5A-aOG"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.25094899535179138" green="0.25099846720695496" blue="0.25094583630561829" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="restartButton" destination="IPU-m8-19B" id="ll9-rN-eRR"/>
+                        <outletCollection property="memoryCards" destination="pZT-pz-fqW" collectionClass="NSMutableArray" id="slK-Yk-0MK"/>
+                        <outletCollection property="memoryCards" destination="OCf-UN-ESp" collectionClass="NSMutableArray" id="SeI-LK-GgR"/>
+                        <outletCollection property="memoryCards" destination="TVl-FZ-i9M" collectionClass="NSMutableArray" id="eoc-7K-cQZ"/>
+                        <outletCollection property="memoryCards" destination="uC3-aL-AXL" collectionClass="NSMutableArray" id="Xtd-L9-2uh"/>
+                        <outletCollection property="memoryCards" destination="7fw-b0-QEj" collectionClass="NSMutableArray" id="KDd-Fz-cM1"/>
+                        <outletCollection property="memoryCards" destination="6ef-JB-4Tx" collectionClass="NSMutableArray" id="CX3-cv-YQN"/>
+                        <outletCollection property="memoryCards" destination="UZW-9Z-Vkf" collectionClass="NSMutableArray" id="dVd-k7-0RV"/>
+                        <outletCollection property="memoryCards" destination="TBg-Vh-XDM" collectionClass="NSMutableArray" id="tIP-jr-x9y"/>
+                        <outletCollection property="memoryCards" destination="DNg-Zm-e0I" collectionClass="NSMutableArray" id="YBV-CN-y5h"/>
+                        <outletCollection property="memoryCards" destination="9iE-Cj-yoE" collectionClass="NSMutableArray" id="yDl-ZO-cJn"/>
+                        <outletCollection property="memoryCards" destination="ouJ-4Y-dlL" collectionClass="NSMutableArray" id="FTT-W2-g0b"/>
+                        <outletCollection property="memoryCards" destination="Oc4-wc-0DY" collectionClass="NSMutableArray" id="Ue6-7k-RXa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="63.75" y="32.74647887323944"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Card_back-Default.png" width="669" height="997"/>
+    </resources>
+</document>
